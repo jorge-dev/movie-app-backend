@@ -1,8 +1,7 @@
 package com.jorgedev.movie.controllers;
 
 import com.jorgedev.movie.Movie;
-import com.jorgedev.movie.MovieService;
-import org.bson.types.ObjectId;
+import com.jorgedev.movie.services.MovieService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

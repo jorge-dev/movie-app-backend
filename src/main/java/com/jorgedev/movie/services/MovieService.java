@@ -1,7 +1,7 @@
-package com.jorgedev.movie;
+package com.jorgedev.movie.services;
 
-import org.bson.types.ObjectId;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.jorgedev.movie.Movie;
+import com.jorgedev.movie.repositories.MovieRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
